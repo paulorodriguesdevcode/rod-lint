@@ -1,4 +1,4 @@
-# Meu Pacote de Lint
+# RodLint meu pacote de configuraçõe de lint
 
 Este pacote contém a configuração do ESLint pré-configurada para ser usada em projetos JavaScript. Ele fornece um conjunto de regras e configurações para ajudar a manter um código limpo, consistente e de qualidade.
 
