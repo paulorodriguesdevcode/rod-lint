@@ -6,7 +6,7 @@ Este pacote contém a configuração do ESLint pré-configurada para ser usada e
 
 Para instalar e usar este pacote em seu projeto, você pode usar o gerenciador de pacotes [Yarn](https://yarnpkg.com/):
 
-```shell
+```
 yarn add rod-lint
 ```
 
@@ -21,7 +21,9 @@ Certifique-se de substituir rod-lint pelo nome correto do pacote.
 # Uso
 Após configurar corretamente o pacote, você pode executar o ESLint no seu projeto usando o seguinte comando:
 
-```shell yarn lint```
+```
+yarn lint
+```
 Isso executará o lint em todo o seu código, seguindo as regras e configurações definidas no pacote.
 
 # Contribuição
