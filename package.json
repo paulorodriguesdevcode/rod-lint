@@ -1,0 +1,15 @@
+{
+  "name": "rod-lint",
+  "version": "1.0.0",
+  "description": "configs of eslint",
+  "main": "index.js",
+  "author": "Paulo Rodrigues",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.41.0"
+  },
+  "eslintConfig": {
+  "extends": "./eslintrc.js"
+  }
+
+}
