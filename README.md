@@ -16,7 +16,6 @@ Após instalar o pacote, você precisa adicionar uma configuração no seu arqui
 module.exports = {
   extends: 'rod-lint',
 };
-Certifique-se de substituir rod-lint pelo nome correto do pacote.
 
 # Uso
 Após configurar corretamente o pacote, você pode executar o ESLint no seu projeto usando o seguinte comando:
