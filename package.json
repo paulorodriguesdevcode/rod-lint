@@ -1,6 +1,6 @@
 {
   "name": "rod-lint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "configs of eslint",
   "main": "index.js",
   "author": "Paulo Rodrigues",
@@ -9,7 +9,6 @@
     "eslint": "^8.41.0"
   },
   "eslintConfig": {
-  "extends": "./eslintrc.js"
+    "extends": "./eslintrc.js"
   }
-
 }

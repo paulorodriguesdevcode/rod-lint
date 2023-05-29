@@ -5,7 +5,10 @@ module.exports = {
     browser: true,
   },
   rules: {
-    'semi': ['error', 'always'],
+    "semi": ["error", "always"],
+    "quotes": ["error", "single"],
+    "indent": ["error", 2],
+    "no-console": "off"
   },
   extends: [
     'eslint:recommended',
