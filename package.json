@@ -1,6 +1,6 @@
 {
   "name": "rod-lint",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Small, tested ESLint 9 flat-config presets (base, node, browser).",
   "type": "module",
   "main": "./src/index.js",

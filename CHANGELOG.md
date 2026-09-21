@@ -3,11 +3,15 @@
 All notable changes to this project are documented here.
 This project follows [Semantic Versioning](https://semver.org/).
 
-## [1.0.0] - 2026-09-21
+## [2.0.0] - 2026-09-21
+
+### Changed
+- Complete rewrite as an ESLint 9+ flat-config package. Breaking change from
+  any previous 1.x release (legacy `.eslintrc` format, different exports) —
+  version bumped to 2.0.0 because npm permanently blocks republishing under
+  a version number a package has used before, even after unpublishing.
 
 ### Added
-- Rewritten as an ESLint 9+ flat-config package (previous 1.0.x releases used
-  the legacy `.eslintrc` format and are unpublished).
 - Three presets: `base`, `node`, `browser`.
 - Test suite that exercises each preset through ESLint's own `Linter` API
   instead of just asserting on the shape of the config object.
