@@ -1,0 +1,54 @@
+{
+  "name": "rod-lint",
+  "version": "1.0.0",
+  "description": "Small, tested ESLint 9 flat-config presets (base, node, browser).",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./base": "./src/base.js",
+    "./node": "./src/node.js",
+    "./browser": "./src/browser.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "test": "node --test",
+    "prepublishOnly": "npm run lint && npm test"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslintconfig",
+    "flat-config"
+  ],
+  "author": "Paulo Rodrigues",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulorodriguesdevcode/rod-lint.git"
+  },
+  "homepage": "https://github.com/paulorodriguesdevcode/rod-lint#readme",
+  "bugs": {
+    "url": "https://github.com/paulorodriguesdevcode/rod-lint/issues"
+  },
+  "peerDependencies": {
+    "eslint": "^9.0.0 || ^10.0.0"
+  },
+  "dependencies": {
+    "@eslint/js": "^10.0.1",
+    "globals": "^17.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^10.0.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
